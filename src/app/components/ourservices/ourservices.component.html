@@ -1,0 +1,21 @@
+<div class="container-fluid justify-content-center align-center d-flex">
+  <div *ngFor="let item of ourServices" class="card" (click)="navigateTo(item.url)">
+    <div class="card-content">
+      <div class="title-with-image">
+        <h2 class="title" [style.color]="item.titleColor">{{item.name}}</h2>
+        <img [src]="getImageUrl(item) || 'assets/images/placeholder-image.png'" class="image" alt="Bundle Image">
+      </div>
+      <div class="body">
+        <p class="descp">{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+

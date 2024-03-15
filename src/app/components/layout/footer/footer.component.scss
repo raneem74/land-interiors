@@ -1,0 +1,72 @@
+/* footer.component.scss */
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  flex-grow: 1; /* Allow the left section to grow */
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.right-section {
+  text-align: right; /* Align content to the right */
+}
+.contact-header {
+  text-align: left; /* Align text to the left */
+}
+
+.contact-details {
+  margin-bottom: 20px; /* Add spacing between contact details and social media icons */
+  text-align: left;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px; /* Add spacing between social media icons */
+  padding: 10px; /* Add padding to the social media icons */
+  border: 2px solid rgba(219, 94, 0, 0.5); ; /* Add an orange border */
+  border-radius: 50%; /* Make the border circular */
+  width: 40px; /* Set a specific width for all icons */
+  height: 40px; /* Set a specific height for all icons */
+  display: flex; /* Ensures centering of icon */
+  justify-content: center; /* Ensures centering of icon */
+  align-items: center; /* Ensures centering of icon */
+}
+
+.social-media a i {
+  font-size: 24px; /* Increase the size of social media icons */
+}
+
+.line {
+  border-top: 2px solid rgba(219, 94, 0, 0.5); /* Orange horizontal line */
+  margin: 20px 0; /* Add margin for spacing */
+}
+
+.terms {
+  text-align: center; /* Align terms text to the center */
+}
+
+/* Description text wrapping */
+.description {
+  max-width: 300px; /* Adjust the maximum width */
+}
+
+.description p {
+  white-space: pre-wrap; /* Allow wrapping of text */
+}

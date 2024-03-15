@@ -1,0 +1,24 @@
+.container-fluid {
+ padding: 0;
+ margin: 0;
+}
+
+.video {
+  width: 100%;
+  object-fit:fill; /* Maintain aspect ratio */
+  z-index: 0; /* Send the video/image to the back */
+  margin-top: -50px;
+
+}
+
+/* Hide the default controls */
+.video::-webkit-media-controls {
+  display: none !important;
+}
+
+/* Media Query for screens narrower than a certain width (e.g., mobile devices) */
+@media only screen and (max-width: 767px) {
+  .video {
+    height: 400px; /* Adjust height for smaller screens */
+  }
+}

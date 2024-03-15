@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Our Team</h2>
+  <div class="team-container">
+    <div class="team-member" *ngFor="let member of ourTeam" [@fadeInOutAnimation]>
+      <img [src]="getImageUrl(member.imageUrl)" alt="{{ member.name }}">
+      <p>{{ member.name }}</p>
+    </div>
+  </div>
+<br>
+<button class="our-clients-button">
+  <i class="fa fa-users"></i> Managment Team
+</button>
+</div>

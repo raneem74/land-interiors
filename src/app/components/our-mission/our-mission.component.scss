@@ -1,0 +1,86 @@
+.container {
+  width: auto;
+  margin: 20px;
+  background-color: #111; /* Darker black */// rgba(17, 17, 17, 0.8);/* Black with 80% opacity */
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white; /* Text color */
+  text-align: center; /* Center-align text */
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(219, 94, 0, 0.5); /* Add box shadow */
+}
+.grid-container {
+  display: flex;
+  flex-direction: row; /* Align items in a row */
+  background-color: rgba(17, 17, 17, 0.8);
+ // box-shadow: 0 4px 8px rgba(219, 94, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* item.component.css */
+
+
+.text-container {
+  flex: 1;
+  animation: slideInFromRight 0.5s ease forwards;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.description-container {
+  flex: 1; /* Take up remaining space */
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 50px;
+  display: flex; /* Enable flex properties for child elements */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  height: 300px; /* Adjust the height as needed */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Add border radius */
+ // box-shadow: 0 4px 8px rgba(219, 94, 0, 0.5); /* Add box shadow */
+  max-width: 600px; /* Adjust the max-width as needed */
+}
+
+
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.image-container {
+  flex: 1; /* Take up available space */
+  margin-left: 10px; /* Adjust margin on the left side */
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0 3px 20px rgba(219, 94, 0, 0.5); /* Adding shadow for 3D effect */
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  color: white;
+  line-height: 2;
+}

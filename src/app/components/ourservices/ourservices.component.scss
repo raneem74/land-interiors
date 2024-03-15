@@ -1,0 +1,56 @@
+
+.card {
+  max-width: 400px; /* adjust as needed */
+  margin: 10px;
+  padding: 20px;
+  background-color: #151515;
+  border: 1px solid #363636;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-with-image {
+  display: flex;
+  align-items: center; /* Align title and image vertically */
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: 'Termina Test', sans-serif;
+  font-size: 25px;
+  margin-right: 10px; /* Adjust spacing between title and image */
+  word-wrap: break-word; /* Allow title to wrap */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 160% */
+  text-transform: uppercase;
+}
+
+.image {
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+}
+
+.descp {
+padding-top: 10px;
+//  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.75);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.card:hover img{
+  filter: brightness(150%);
+}
