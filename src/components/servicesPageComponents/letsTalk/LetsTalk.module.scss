@@ -1,0 +1,48 @@
+.container{
+    background-color: var(--color-white);
+    display: flex;
+    padding: 99px 0;
+    color: #000;
+    justify-content: space-around;
+    align-items: center;
+
+    .title{
+        color: var(--color-orange);
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .boldTitle{
+        font-size: 80px;
+        font-weight: 700;
+    }
+
+    .normalTitle{
+        font-size: 80px;
+        font-weight: 300;
+    }
+
+    .description{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .button{
+        display: flex;
+        width: 211px;
+        height: 53px;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        border: 1px solid black;
+        padding: 5px 10px;
+    }
+
+    .row{
+        display: flex;
+    }
+}

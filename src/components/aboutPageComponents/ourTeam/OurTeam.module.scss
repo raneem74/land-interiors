@@ -1,0 +1,36 @@
+.container{
+    background-color: var(--color-white);
+    padding: 100px 130px;
+
+    color: #000;
+    font-size: 40px;
+
+    .boldTitle{
+        font-weight: 700;
+    }
+
+    .title{
+        font-weight: 300;
+    }
+
+    .cardsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 35px;
+        margin-top: 43px;
+
+        .name{
+            font-size: 25px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .title{
+            color: rgba(0, 0, 0, 0.75);
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+}

@@ -1,0 +1,84 @@
+.container{
+    .location{
+            margin-top: 180px;
+            margin-left: 170px;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 500;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+        }
+
+    .titleContainer{
+        position: absolute;
+        top : 331px;
+        left :170px;
+        display: flex;
+        flex-direction: column;
+        z-index: 5;
+        font-size: 18px;
+
+            &_title{
+                font-size: 80px;
+                font-weight: 300;
+                width: 700px;
+                overflow-wrap: break-word;
+            }
+
+            &_boldTitle{
+                font-size: 80px;
+                font-weight: 600;
+                width: 700px;
+                overflow-wrap: break-word;
+            }
+    }
+
+    .banner{
+        position: relative;
+
+        img {
+            opacity: 1;
+        }
+    }
+
+    .banner::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 150px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .info{
+        display: flex;
+        font-family: Poppins;
+    }
+
+    .share{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        margin-left: auto;
+        gap: 28px;
+    }
+
+    .content{
+        padding: 50px 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 53px;
+    }
+
+    .description {
+        color: rgba(255, 255, 255, 0.75);
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+}

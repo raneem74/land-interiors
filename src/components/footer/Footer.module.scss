@@ -1,0 +1,64 @@
+.container{
+    border-top: 1px solid rgba(255, 255, 255, 0.50);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.75);
+    padding: 80px 150px 40px 150px;
+    gap: 45px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 74px;
+}
+
+.about{
+    width: 415px;
+}
+
+.title{
+    color: #FFF;
+    font-family: "Termina Test";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pages{
+    display: flex;
+    gap: 100px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+}
+
+.divider{
+    height: 1px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.copyright{
+    color: #E5E7EB;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+}

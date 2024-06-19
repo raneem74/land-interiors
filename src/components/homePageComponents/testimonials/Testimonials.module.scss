@@ -1,0 +1,22 @@
+.container{
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 122px 0 131px 100px;
+    gap: 88px;
+
+    &_title{
+        color: #000;
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+
+.swiper{
+    width: 100%;
+}
+
+.imageContainer{
+    object-fit: contain;
+}

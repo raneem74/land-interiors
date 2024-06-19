@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    width: 100%;
+    padding: 170px 150px;
+    justify-content: space-between;
+
+    .titleContainer{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .title{
+        color: var(--color-orange);
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .subTitleFirst{
+        font-weight: 300;
+        font-size: 35px;
+        text-transform: capitalize;
+    }
+
+    .subTitleSecond{
+        font-weight: 700;
+        font-size: 35px;
+        text-transform: capitalize;
+    }
+
+    .description{
+        color: rgba(255, 255, 255, 0.75);
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 50%;
+
+    }
+}

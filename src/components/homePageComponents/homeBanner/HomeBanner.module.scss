@@ -1,0 +1,61 @@
+@use "../../../styles/mixins" as *;
+
+.container{
+    position: relative;
+}
+
+.titleContainer{
+    position: absolute;
+    top : 211px;
+    left :170px;
+    display: flex;
+    gap: 50px;
+    z-index: 5;
+    font-size: 18px;
+
+    &_title{
+        font-size: 80px;
+        font-weight: 600;
+        width: 700px;
+        overflow-wrap: break-word;
+
+        @include screen-min-tablet {
+            font-size: 80px;
+    }
+}
+
+    &_button{
+        display: flex;
+        width: 211px;
+        height: 53px;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        border: 1px solid var(--color-white);
+        padding: 5px 10px;
+        margin-top: 50px;
+    }
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.orange{
+    color: var(--color-orange);
+}
+
+.green{
+    color: var(--color-green);
+}
+
+.blue{
+    color: var(--color-blue);
+}

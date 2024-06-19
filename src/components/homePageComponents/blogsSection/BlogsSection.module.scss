@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 105px 160px;
+    gap: 55px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blog{
+    background: #151515;
+    width: 443px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    &_date{
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Poppins';
+        margin-bottom: 5px;
+        text-transform: none;
+    }
+
+    &_title{
+        padding: 36px 41px;
+        margin-top: auto;
+    }
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &_title{
+        font-size: 35px;
+        font-weight: 700;
+        text-transform: capitalize;
+        width: 450px;
+    }
+
+    &_button{
+        display: flex;
+        width: 211px;
+        height: 53px;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        border: 1px solid var(--color-white);
+        padding: 5px 10px;
+    }
+}
+
+.cards{
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}

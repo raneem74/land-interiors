@@ -1,0 +1,53 @@
+@use "mixins" as *;
+
+:root {
+    --color-white: #fff;
+    --color-off-black: #282d31;
+    --color-gold: #dcb66c;
+    --color-coral: #ed6a5e;
+    --color-jade: #3baf7f;
+    --color-blue: #27B5CC;
+    --color-green: #51B752;
+    --color-orange:#DB5E00;
+    --color-blue-violet: #0a090c;
+    --color-orange-tint: #FFF8EC;
+    --color-grey1: #172439;
+    --color-grey2: #8B91A1;
+    --color-grey3: #D5DAE5;
+    --color-grey4: #F4F5F7;
+    --color-grey5: #FAFBFC;
+    --color-grey6: rgba(0, 0, 0, 0.25);
+    --color-black1: #434349;
+    --color-off-white: #f9f7f1;
+    --color-accent: #0E6DFF;
+    --color-accent2: #0052CF;
+    --color-accent3: #DEEBFF;
+    --color-error: #F44;
+    --color-error2: #E03838;
+    --color-error3: #FFEBE6;
+    --color-warning1: #FF991F;
+    --color-warning2: #FFF6E4;
+    --color-success: #13BB7E;
+    --color-success2: #17CF8D;
+    --color-success3: #DEFFF3;
+    --color-success4: #DFFFF3;
+    --color-scrim: rgb(0 0 0 / 40%);
+
+    --color-primary-text :#FFF;;
+    --color-secondary-text : rgba(255, 255, 255, 0.75);;
+
+    --color-bg: #000;;
+
+    --gradient1: linear-gradient(180deg, #FFF 0%, #F4F5F7 100%);
+
+    --spacing-xxs: 2px;
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
+    --spacing-xxl: 40px;
+
+    --typography-en: "Termina Test", "Inter", "Poppins", sans-serif;
+    --typography-ar: "Cairo", "Noto Sans Arabic", tahoma, sans-serif;
+}

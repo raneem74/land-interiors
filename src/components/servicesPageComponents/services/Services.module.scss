@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    width: 100%;
+    gap: 75px;
+    padding-right: 120px;
+
+    .servicesContainer{
+        width: 60%;
+    }
+
+    .titleContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .title{
+        color: var(--color-orange);
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .normalTitle{
+        font-weight: 300;
+        font-size: 35px;
+        text-transform: capitalize;
+        width: fit-content;
+        white-space: nowrap;
+    }
+
+    .boldTitle{
+        font-weight: 700;
+        font-size: 35px;
+        text-transform: capitalize;
+        width: fit-content;
+        white-space: nowrap;
+    }
+
+    .button{
+        display: flex;
+        width: 211px;
+        height: 53px;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        border: 1px solid var(--color-white);
+        padding: 5px 10px;
+    }
+
+    .accordionContent{
+        color: rgba(255, 255, 255, 0.75);
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+}

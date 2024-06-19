@@ -1,0 +1,21 @@
+@use "../../styles/mixins" as *;
+
+.container{
+    height: 68px;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    @include screen-min-tablet {
+        justify-content: end;
+        padding: 27px 150px;
+    }
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
