@@ -37,6 +37,9 @@ yarn-error.log
 testem.log
 /typings
 
+# next.js build output
+.next
+
 # System files
 .DS_Store
 Thumbs.db
